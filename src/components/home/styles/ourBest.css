@@ -1,0 +1,61 @@
+.ourBestContainer {
+  background: url(../../../logo/images/paper.jpg),
+    lightgray 50% / cover no-repeat;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 110px;
+}
+
+.ourBestContainer .title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  padding-top: 80px;
+  margin-bottom: 19px;
+}
+
+.typesOfCoffee {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 71px;
+  margin-top: 50px;
+}
+
+.oneCoffe {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.65);
+  color: black;
+  padding: 24px 20px 30px 20px;
+  transition: 0.1s ease-out;
+}
+
+.oneCoffe:hover {
+  transform: scale(1.1);
+}
+
+.imgDiv {
+  display: flex;
+  justify-content: center;
+}
+.oneCoffe img {
+  margin-bottom: 14px;
+  height: 130px;
+  width: 151px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.nameWeightCoffee {
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.priceCoffee {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: end;
+}

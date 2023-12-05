@@ -1,0 +1,70 @@
+.mainGoodContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.allTheCoffeeGood {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 71px;
+}
+
+.theOneCoffeGood {
+  color: black;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  padding-right: 27px;
+  padding-left: 27px;
+  transition: 0.1s ease-out;
+}
+
+.theOneCoffeGood:hover {
+  transform: scale(1.1);
+}
+
+.theOneCoffeImgGood {
+  display: flex;
+  justify-content: center;
+  padding-top: 37px;
+  margin-bottom: 14px;
+}
+
+.coffeImgGood {
+  width: 167px;
+  height: 115px;
+}
+
+.theOneCoffeGood h3 {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.coffeeCountryGood {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: right;
+  margin-bottom: 14px;
+}
+
+.coffePriceGood {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: right;
+  padding-bottom: 22px;
+}
+
+@media (max-width: 1524px) {
+  .allTheCoffeeGood {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 71px;
+  }
+}
+
+@media (max-width: 512px) {
+  .allTheCoffeeGood {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

@@ -1,0 +1,13 @@
+.headerOneCoffee {
+  background: url("../../../logo/images/Coffee_bg.jpg"),
+    lightgray 50% / cover no-repeat;
+}
+
+.headerOneCoffee h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 60px;
+  padding-bottom: 77px;
+}

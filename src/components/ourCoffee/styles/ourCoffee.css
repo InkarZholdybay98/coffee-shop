@@ -1,0 +1,19 @@
+.ourCoffeeContainer {
+  background: url("../../../logo/images/Coffee_bg.jpg"),
+    lightgray 50% / cover no-repeat;
+}
+
+.headerOurCoffe {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 60px;
+  padding-bottom: 77px;
+}
+
+@media (max-width: 326px) {
+  .headerOurCoffe {
+    padding-bottom: 60px;
+  }
+}

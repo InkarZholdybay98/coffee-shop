@@ -1,0 +1,32 @@
+.aboutOurBeans {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 79px;
+  margin-bottom: 57px;
+}
+
+.infoAboutOurbeans {
+  width: 25%;
+  text-align: center;
+}
+
+.infoAboutOurbeans h4 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.infoAboutOurbeans img {
+  margin-bottom: 25.7px;
+  object-fit: cover;
+}
+
+.line {
+  width: 240px;
+  height: 1px;
+  background-color: #000;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 65px;
+}

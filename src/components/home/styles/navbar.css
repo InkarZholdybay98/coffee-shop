@@ -1,0 +1,154 @@
+.container {
+  height: 640px;
+  background: url(../../../logo/images/Main_bg.jpg) center center no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  gap: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.title-big {
+  margin-top: 111px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.coffeBeansLogo {
+  margin-bottom: 34.7px;
+}
+
+.preview__subtitle {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.wantToTry {
+  margin-bottom: 18px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.more {
+  padding: 5px 42px 10px 42px;
+  font-size: 14px;
+  border-radius: 3px;
+  border: 2px solid #fff;
+  background: rgba(196, 196, 196, 0);
+  color: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.1s ease-out;
+}
+
+.more:hover {
+  color: black;
+  border: 2px solid black;
+}
+
+@media (max-width: 791px) {
+  .title-big {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 707px) {
+  .typesOfCoffee {
+    display: block;
+  }
+
+  .oneCoffe {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 569px) {
+  .typesOfCoffee {
+    display: block;
+  }
+
+  .oneCoffe {
+    margin-bottom: 30px;
+  }
+
+  .aboutUsText {
+    width: 100%;
+  }
+
+  .title-big {
+    font-size: 180%;
+  }
+
+  .preview__subtitle {
+    font-size: 150%;
+  }
+
+  .wantToTry {
+    font-size: 110%;
+  }
+}
+
+@media (max-width: 529px) {
+  .preview__subtitle {
+    font-size: 120%;
+  }
+}
+
+@media (max-width: 495px) {
+  .title-big {
+    font-size: 150%;
+  }
+}
+
+@media (max-width: 427px) {
+  .preview__subtitle {
+    font-size: 100%;
+  }
+}
+
+@media (max-width: 408px) {
+  .title-big {
+    font-size: 120%;
+  }
+}
+
+@media (max-width: 386px) {
+  .navbarAll {
+    display: flex;
+    gap: 22px;
+    align-items: center;
+  }
+
+  .navbarContainer {
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 350px) {
+  .preview__subtitle {
+    text-align: center;
+  }
+}
+
+@media (max-width: 325px) {
+  .title-big {
+    text-align: center;
+  }
+}

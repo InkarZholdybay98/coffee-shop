@@ -1,0 +1,99 @@
+.aboutCoffeeContainerMain {
+  display: flex;
+  gap: 42px;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+
+.coffePicture {
+  width: 640px;
+  height: 555px;
+  object-fit: cover;
+}
+
+.aboutCoffeContainer {
+  width: 25%;
+}
+.aboutCoffe {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 21px;
+}
+
+.coffeeBeansDarkAbout {
+  margin-bottom: 25.7px;
+}
+
+.aboutCountry {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.aboutCountry span {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.describeCoffee {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.describeCoffee span {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.priceCoffeeOne {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.priceCoffeeOne span {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+@media (max-width: 837px) {
+  .mainContainerDescribe {
+    display: flex;
+    justify-content: center;
+  }
+
+  .aboutCoffeeContainerMain {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aboutCoffeContainer {
+    width: 85%;
+  }
+}
+
+@media (max-width: 643px) {
+  .coffePicture {
+    width: 80%;
+    object-fit: scale-down;
+  }
+}
+
+@media (max-width: 538px) {
+  .coffePicture {
+    width: 80%;
+  }
+}
+
+@media (max-width: 497px) {
+  .coffePicture {
+    width: 298px;
+  }
+}
+
+@media (max-width: 296px) {
+  .coffePicture {
+    width: 90%;
+  }
+}

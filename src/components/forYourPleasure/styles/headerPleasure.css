@@ -1,0 +1,13 @@
+.containerHeaderAboutGoods {
+  background: url("../../../logo/images/coffe-bg-blanket.png"),
+    lightgray 50% / cover no-repeat;
+}
+
+.pleasureHeader {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 60px;
+  padding-bottom: 77px;
+}
